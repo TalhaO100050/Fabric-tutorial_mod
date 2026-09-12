@@ -8,6 +8,7 @@ import net.minecraft.resources.Identifier;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.ItemStack;
 import net.talha.tutorial_mod.TutorialMod;
+import net.talha.tutorial_mod.block.ModBlocks;
 import net.talha.tutorial_mod.item.ModItems;
 
 public class ModCreativeModeTabs {
@@ -15,13 +16,14 @@ public class ModCreativeModeTabs {
     public static final CreativeModeTab GEM_ITEM_TAB = Registry.register(BuiltInRegistries.CREATIVE_MODE_TAB,
             Identifier.fromNamespaceAndPath(TutorialMod.MOD_ID, "gem_items"),
             FabricCreativeModeTab.builder()
-                    .icon(() -> new ItemStack(ModItems.GEM))
+                    .icon(() -> new ItemStack(ModBlocks.GEM_BLOCK))
                     .title(Component.translatable("creativemodetab.tutorial_mod.gem_items"))
                     .displayItems((parameters, output) -> {
                         output.accept(ModItems.GEM);
                         output.accept(ModItems.RAW_GEM);
+                        output.accept(ModBlocks.GEM_BLOCK);
+                        output.accept(ModBlocks.RAW_GEM_BLOCK);
                     })
-
                     .build());
 
     public static void registerModCreativeModeTabs() {

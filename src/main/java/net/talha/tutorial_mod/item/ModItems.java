@@ -24,10 +24,5 @@ public class ModItems {
 
     public static void registerModItems(){
         TutorialMod.LOGGER.info("Registering mod items for " + TutorialMod.MOD_ID);
-
-        CreativeModeTabEvents.modifyOutputEvent(CreativeModeTabs.INGREDIENTS).register(output -> {
-            output.accept(GEM);
-            output.accept(RAW_GEM);
-        });
     }
 }

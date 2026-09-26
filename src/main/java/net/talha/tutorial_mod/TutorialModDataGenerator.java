@@ -2,6 +2,8 @@ package net.talha.tutorial_mod;
 
 import net.fabricmc.fabric.api.datagen.v1.DataGeneratorEntrypoint;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataGenerator;
+import net.talha.tutorial_mod.datagen.ModBlockLootTableProvider;
+import net.talha.tutorial_mod.datagen.ModBlockTagsProvider;
 import net.talha.tutorial_mod.datagen.ModModelProvider;
 
 public class TutorialModDataGenerator implements DataGeneratorEntrypoint {
@@ -10,5 +12,7 @@ public class TutorialModDataGenerator implements DataGeneratorEntrypoint {
 		var pack = fabricDataGenerator.createPack();
 
 		pack.addProvider(ModModelProvider::new);
+		pack.addProvider(ModBlockTagsProvider::new);
+		pack.addProvider(ModBlockLootTableProvider::new);
 	}
 }

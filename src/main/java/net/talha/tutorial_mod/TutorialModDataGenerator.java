@@ -5,6 +5,7 @@ import net.fabricmc.fabric.api.datagen.v1.FabricDataGenerator;
 import net.talha.tutorial_mod.datagen.ModBlockLootTableProvider;
 import net.talha.tutorial_mod.datagen.ModBlockTagsProvider;
 import net.talha.tutorial_mod.datagen.ModModelProvider;
+import net.talha.tutorial_mod.datagen.ModRecipeProvider;
 
 public class TutorialModDataGenerator implements DataGeneratorEntrypoint {
 	@Override
@@ -14,5 +15,6 @@ public class TutorialModDataGenerator implements DataGeneratorEntrypoint {
 		pack.addProvider(ModModelProvider::new);
 		pack.addProvider(ModBlockTagsProvider::new);
 		pack.addProvider(ModBlockLootTableProvider::new);
+		pack.addProvider(ModRecipeProvider::new);
 	}
 }

@@ -18,6 +18,7 @@ public class ModItems {
     public static final Item GEM = registerItem("gem", Item::new);
     public static final Item RAW_GEM = registerItem("raw_gem", Item::new);
     public static final Item GEM_SOUP = registerItem("gem_soup",properties -> new Item(properties.food(ModFoods.GEM_SOUP, ModFoods.GEM_SOUP_CONSUMABLE)));
+    public static final Item BOWL = registerItem("bowl", Item::new);
 
     public static ResourceKey<Item> getRK(Item item) {
         return BuiltInRegistries.ITEM.getResourceKey(item).get();

@@ -1,6 +1,7 @@
 // 26.2	-999999999-01-01T00:00:00	Tutorial Mod/Model Definitions
 677b36f663b0f868355c2d2a11e3cccd93092775 assets/tutorial_mod/blockstates/gem_block.json
 e78a8a23f5807d558c80e780d3409d921ad0b5e3 assets/tutorial_mod/blockstates/raw_gem_block.json
+b21009269eb2fb0b975fa38e0f816a778d05bd39 assets/tutorial_mod/items/bowl.json
 742b74d18d12637c48d5ccbde32971bd22717224 assets/tutorial_mod/items/gem.json
 79cf8244fe623b4194fe85820286065930b2288b assets/tutorial_mod/items/gem_block.json
 14758b5a3dd7570ac725ece65e7bb3552d42bc45 assets/tutorial_mod/items/gem_soup.json

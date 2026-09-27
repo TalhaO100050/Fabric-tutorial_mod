@@ -1,0 +1,13 @@
+// 26.2	-999999999-01-01T00:00:00	Tutorial Mod/Model Definitions
+677b36f663b0f868355c2d2a11e3cccd93092775 assets/tutorial_mod/blockstates/gem_block.json
+e78a8a23f5807d558c80e780d3409d921ad0b5e3 assets/tutorial_mod/blockstates/raw_gem_block.json
+742b74d18d12637c48d5ccbde32971bd22717224 assets/tutorial_mod/items/gem.json
+79cf8244fe623b4194fe85820286065930b2288b assets/tutorial_mod/items/gem_block.json
+14758b5a3dd7570ac725ece65e7bb3552d42bc45 assets/tutorial_mod/items/gem_soup.json
+652eef7397dd75c987616671ddf8562e75fd6fa2 assets/tutorial_mod/items/raw_gem.json
+7dbbeab3bc49ee78de6f01e19126ecfdb1ee14b9 assets/tutorial_mod/items/raw_gem_block.json
+2d15d0b25d78bc0bf7a91de8bd8f7c8dad9c386a assets/tutorial_mod/models/block/gem_block.json
+673e4ba94a0326b9cf6b02e0808ad5eaa83850db assets/tutorial_mod/models/block/raw_gem_block.json
+22b32d50005391cfeb33ad4744adcfc2ab05214f assets/tutorial_mod/models/item/gem.json
+583c54e28650c8d2eba92e9dd4eb88a2b4117e19 assets/tutorial_mod/models/item/gem_soup.json
+87fe4d01ded157b618a22aff0518eb6fa3da3c38 assets/tutorial_mod/models/item/raw_gem.json

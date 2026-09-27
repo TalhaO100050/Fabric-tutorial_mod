@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:blasting",
+  "category": "blocks",
+  "experience": 0.25,
+  "group": "gem",
+  "ingredient": "tutorial_mod:raw_gem",
+  "result": {
+    "id": "tutorial_mod:gem"
+  }
+}

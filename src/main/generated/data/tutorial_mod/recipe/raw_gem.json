@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "raw_gem",
+  "ingredients": [
+    "tutorial_mod:raw_gem_block"
+  ],
+  "result": {
+    "count": 9,
+    "id": "tutorial_mod:raw_gem"
+  }
+}

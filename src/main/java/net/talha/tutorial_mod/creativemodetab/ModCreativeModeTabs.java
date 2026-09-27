@@ -23,6 +23,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.RAW_GEM);
                         output.accept(ModBlocks.GEM_BLOCK);
                         output.accept(ModBlocks.RAW_GEM_BLOCK);
+                        output.accept(ModItems.GEM_SOUP);
                     })
                     .build());
 

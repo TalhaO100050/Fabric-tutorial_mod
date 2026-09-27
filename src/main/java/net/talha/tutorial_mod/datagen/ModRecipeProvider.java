@@ -6,6 +6,7 @@ import net.minecraft.core.HolderLookup;
 import net.minecraft.data.recipes.RecipeCategory;
 import net.minecraft.data.recipes.RecipeOutput;
 import net.minecraft.data.recipes.RecipeProvider;
+import net.minecraft.world.item.Items;
 import net.minecraft.world.item.crafting.CookingBookCategory;
 import net.minecraft.world.item.crafting.ShapelessRecipe;
 import net.minecraft.world.level.ItemLike;
@@ -45,6 +46,13 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                         .requires(ModBlocks.RAW_GEM_BLOCK)
                         .unlockedBy(getHasName(ModBlocks.RAW_GEM_BLOCK), has(ModBlocks.RAW_GEM_BLOCK))
                         .group("raw_gem")
+                        .save(output);
+
+                shapeless(RecipeCategory.MISC, ModItems.GEM_SOUP, 1)
+                        .requires(ModItems.GEM)
+                        .requires(Items.BOWL)
+                        .unlockedBy(getHasName(ModItems.GEM), has(ModItems.GEM))
+                        .group("gem_soup")
                         .save(output);
             }
         };

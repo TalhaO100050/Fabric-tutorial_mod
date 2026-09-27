@@ -1,6 +1,7 @@
 {
   "item.tutorial_mod.gem": "Gem",
   "item.tutorial_mod.raw_gem": "Raw Gem",
+  "item.tutorial_mod.gem_soup": "Gem Soup",
 
   "block.tutorial_mod.gem_block": "Block of Gem",
   "block.tutorial_mod.raw_gem_block": "Block of Raw Gem",
